@@ -1,1 +1,28 @@
 
+import java.util.*;
+public class java{
+public static void main(String args[]) {
+Scanner sc=new Scanner(System.in);
+int number = 0;
+int count= 0;
+System.out.print("Enter Divisor Number : ");
+int div = sc.nextInt();
+for ( int i = 1 ; i <= 5 ; i++){
+if(i== 1){
+System.out.print("Enter " +i+ "st Number: ");
+number = sc.nextInt();
+}
+else if ( i== 2){
+System.out.print("Enter "+i+"nd number ");
+number = sc.nextInt();
+}
+else if ( i== 3 ){
+System.out.print("Enter "+i+"rd number ");
+number = sc.nextInt();
+}
+}
+if(number%div==0)
+count+=number;
+System.out.println(+count);
+}
+}
